@@ -1,0 +1,208 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F0EFFF;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #C0C3FF;
+  padding: 1em;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #DBDDFF;
+  padding: 1em;
+  border-bottom: 2px solid #444bc4;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 1em;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #b6bdff;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+.endeavors {
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+}
+
+.python-code {
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+  overflow-x: auto;
+}
+
+.downloads {
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+  
+}
+
+.downloads ul {
+  list-style: none;
+  padding: 0;
+}
+
+.downloads li {
+  margin: 1em 0;
+  background-color: #ffb6c1;
+  border-radius: 8px;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.downloads a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.downloads a:hover {
+  color: #fff;
+}
+
+.calculus-resources {
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+}
+
+.calculus-resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.calculus-resources li {
+  margin: 1em 0;
+  background-color: #C4BCFF;
+  border-radius: 8px;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculus-resources a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  display: flex;
+  text-align: left;
+}
+
+.calculus-resources a:hover {
+  color: #fff;
+}
+
+div.dlbtn {
+  display: inline-block;
+  background-color: #AB9BEA;
+  padding: 10px;  
+  right: 2.1em;
+}
+
+div.dlbtn:hover {
+  background-color: #9181d3;
+  transition: 0.3s;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+footer {
+  background-color: #C0C3FF;
+  padding: 1em;
+  text-align: center;
+}
+
+
+
+.subjects {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.subject {
+  flex: 1;
+  background-color: #fff8f7;
+  border-radius: 16px;
+  padding: 2em;
+  margin: 0 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+.subject:hover {
+  transform: scale(1.05);
+}
+
+.subject:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ffa9b6;
+}
+
+.subject h3 {
+  color: #e22470;
+  position: relative;
+  display: inline-block;
+}
+.subject a {
+  text-decoration: none;
+  color: inherit; /* Inherit the color from the parent */
+}
+
+.subject a:hover {
+  text-decoration: underline; /* Add underline on hover for visual feedback */
+}

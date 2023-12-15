@@ -1,0 +1,189 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffc0cb;
+  padding: 1em;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #ffe4e1;
+  padding: 1em;
+  border-bottom: 2px solid #ffb6c1;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 1em;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ffb6c1;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+.endeavors {
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+}
+
+.python-code {
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+  overflow-x: auto;
+}
+
+.downloads {
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+}
+
+.downloads ul {
+  list-style: none;
+  padding: 0;
+}
+
+.downloads li {
+  margin: 1em 0;
+  background-color: #ffb6c1;
+  border-radius: 8px;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.downloads a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.downloads a:hover {
+  color: #fff;
+}
+
+.calculus-resources {
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease;
+}
+
+.calculus-resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.calculus-resources li {
+  margin: 1em 0;
+  background-color: #ffb6c1;
+  border-radius: 8px;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculus-resources a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.calculus-resources a:hover {
+  color: #fff;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+footer {
+  background-color: #ffc0cb;
+  padding: 1em;
+  text-align: center;
+}
+
+
+
+.subjects {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.subject {
+  display: block;
+  flex: 1;
+  background-color: #fff8f7;
+  border-radius: 16px;
+  padding: 2em;
+  margin: 0 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+.subject:hover {
+  transform: scale(1.05);
+}
+
+.subject:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ffa9b6;
+}
+
+.subject h3 {
+  color: #9b0954;
+  position: relative;
+  display: inline-block;
+}
